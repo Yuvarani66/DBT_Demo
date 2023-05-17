@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: SF_Sample
+    database: "YUVA_DBS"
+    schema: "PUBLIC"
+    tables:
+      - name: demo_sales_inf
+
+
+models:
+    - name: First_YV_Model
+      description: "Practice DBT Model"
+      columns:
+          - name: Region
+          - name: Rep
+          - name: Item
+            description: "The primary key for this table"
+           
